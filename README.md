@@ -1,5 +1,3 @@
-# playreact template
-
 Vite + TypeScript + Tailwind CSS + Daisy UI + ESlint 🤏
 
 ```sh
