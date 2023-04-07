@@ -1,5 +1,5 @@
 import Counter from '../Counter'
-import ThemeChange from '../ThemeChange/ThemeChange'
+import ThemeChange from '../ThemeChange'
 
 export default function App() {
   return (
