@@ -5,7 +5,7 @@
 ![Fork](https://img.shields.io/github/forks/playreact/template?style=flat)
 ![MIT](https://img.shields.io/github/license/playreact/template?style=flat)
 
-Vite + TypeScript + Tailwind CSS + Daisy UI + ESlint 🤏
+Vite + TypeScript + Tailwind CSS + Daisy UI + ahooks + ESlint 🤏
 
 ```sh
 npx degit playreact/template <my-app>
