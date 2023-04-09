@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react'
+import { memo, useEffect, useState } from 'react'
 import { themeChange } from 'theme-change'
 import { themes } from './ThemeChange.constants'
 
-export default function ThemeChange() {
+function ThemeChange() {
   const [currentTheme, setCurrentTheme] = useState<string>('')
 
   useEffect(() => {
@@ -20,3 +20,5 @@ export default function ThemeChange() {
     </button>
   )
 }
+
+export default memo(ThemeChange)
