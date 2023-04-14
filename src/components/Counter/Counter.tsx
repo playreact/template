@@ -1,11 +1,19 @@
+import React from 'react'
 import { useLocalStorageState } from 'ahooks'
 
-export default function Counter() {
-  const [value, setValue] = useLocalStorageState<number>('counter', { defaultValue: 0 })
+interface CounterProps {
+  storageKey: string
+  initialValue?: number
+}
+
+const Counter: React.FC<CounterProps> = ({ storageKey, initialValue }) => {
+  const [value, setValue] = useLocalStorageState<number>(storageKey, { defaultValue: initialValue })
 
   return (
-    <button className='btn btn-outline btn-success btn-wide text-lg' onClick={() => setValue(value + 1)}>
+    <button className='btn btn-outline btn-success' onClick={() => setValue(value + 1)}>
       {value}
     </button>
   )
 }
+
+export default Counter
