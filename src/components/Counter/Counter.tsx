@@ -6,7 +6,7 @@ interface CounterProps {
   initialValue?: number
 }
 
-const Counter: React.FC<CounterProps> = ({ storageKey, initialValue }) => {
+const Counter: React.FC<CounterProps> = ({ storageKey, initialValue = 0 }) => {
   const [value, setValue] = useLocalStorageState<number>(storageKey, { defaultValue: initialValue })
 
   return (
