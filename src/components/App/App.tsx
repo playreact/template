@@ -5,8 +5,8 @@ import Toolbar from '../Toolbar'
 const App: React.FC = () => {
   return (
     <>
-      <div className='flex min-h-screen flex-col items-center justify-center gap-8'>
-        <h1 className='text-success text-center font-serif text-4xl font-bold'>
+      <div className='flex min-h-screen flex-col items-center justify-center gap-5'>
+        <h1 className='text-center font-serif text-3xl font-bold'>
           Play React Template
         </h1>
         <div className='btn-group'>
