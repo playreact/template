@@ -22,7 +22,7 @@ const ThemeChange: React.FC = () => {
                 data-theme={theme.id}
                 data-set-theme={theme.id}
                 data-act-class='[&_svg]:visible'
-                className="bg-base-100 flex w-full cursor-pointer gap-2 rounded px-3 py-2 font-mono"
+                className="bg-base-100 flex w-full cursor-pointer gap-2 rounded px-3 py-2 font-serif"
               >
                 <Check className='invisible' />
                 {theme.id}
