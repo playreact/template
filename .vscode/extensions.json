@@ -1,7 +1,6 @@
 {
   "recommendations": [
     "dbaeumer.vscode-eslint",
-    "bradlc.vscode-tailwindcss",
-    "antfu.iconify"
+    "bradlc.vscode-tailwindcss"
   ]
 }

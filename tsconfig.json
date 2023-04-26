@@ -4,9 +4,6 @@
     "paths": {
       "@/*": ["src/*"]
     },
-    "types": [
-      "unplugin-icons/types/react"
-    ],
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
