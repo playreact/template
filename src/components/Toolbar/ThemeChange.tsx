@@ -10,7 +10,7 @@ const ThemeChange: React.FC = () => {
 
   return (
     <div className="dropdown dropdown-bottom dropdown-end">
-      <label tabIndex={0} className="btn btn-ghost">
+      <label tabIndex={0} className="btn btn-ghost btn-square">
         <Palette />
       </label>
       <div tabIndex={0} className="dropdown-content menu bg-base-200 mt-2 h-64 w-52 overflow-y-auto rounded-md p-2 shadow">
