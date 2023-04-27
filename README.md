@@ -8,8 +8,15 @@
 Vite + TypeScript + Tailwind CSS + Daisy UI + lucide-react + ahooks + ESlint 🤏
 
 ```sh
-npx degit playreact/template <my-app>
-cd <my-app>
+npx degit playreact/template my-app
+cd my-app
 ni  # npm i -g @antfu/ni
 nr dev
 ```
+
+## Examples
+
+- [Todos](https://github.com/mancuoj/todos)
+- [Tic-Tac-Toe](https://github.com/playreact/tic-tac-toe) 
+- [Gobang](https://github.com/playreact/gobang)
+- ...
