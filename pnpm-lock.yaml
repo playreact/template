@@ -8,8 +8,8 @@ dependencies:
     specifier: ^2.51.5
     version: 2.51.5(autoprefixer@10.4.14)(postcss@8.4.21)
   lucide-react:
-    specifier: ^0.206.0
-    version: 0.206.0(react@18.2.0)
+    specifier: ^0.211.0
+    version: 0.211.0(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -2299,8 +2299,8 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lucide-react@0.206.0(react@18.2.0):
-    resolution: {integrity: sha512-F19KIhWMs7gy+BFobAdRh822wrEm3b7mPuyX7wNOR2TMQ4QETs5lLkw3SYRLzOA833vpxsY17bvVwK05Z1jzRQ==}
+  /lucide-react@0.211.0(react@18.2.0):
+    resolution: {integrity: sha512-YRXK55KqWWcT1zPg89MWl2L6/dAFjaAcx5QQCdn1LS/DqHkZ83ibYu94CxYJpeq+/ZQrNMYhh/JF2BNKPDQo1g==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
