@@ -7,10 +7,10 @@ interface CounterProps {
 }
 
 const Counter: React.FC<CounterProps> = ({ storageKey, initialValue = 0 }) => {
-  const [value, setValue] = useLocalStorageState<number>(storageKey, { defaultValue: initialValue })
+  const [value, setValue] = useLocalStorageState(storageKey, { defaultValue: initialValue })
 
   return (
-    <button className='btn btn-square btn-outline' onClick={() => setValue(value + 1)}>
+    <button className='btn btn-square btn-outline' onClick={() => setValue(value! + 1)}>
       {value}
     </button>
   )

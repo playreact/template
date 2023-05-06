@@ -4,11 +4,8 @@ import Toolbar from '../Toolbar'
 
 const App: React.FC = () => {
   return (
-    <div className='
-      from-base-100 via-base-200 to-base-content flex min-h-screen flex-col
-      items-center justify-center gap-5 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))]
-    '>
-      <h1 className='text-center font-serif text-3xl font-bold'>
+    <div className='flex min-h-screen flex-col items-center justify-center gap-5 p-12'>
+      <h1 className='text-center font-serif text-4xl font-bold'>
         Play React Template
       </h1>
       <div className='btn-group'>
