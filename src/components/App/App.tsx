@@ -4,7 +4,7 @@ import Toolbar from '../Toolbar'
 
 const App: React.FC = () => {
   return (
-    <div className='flex min-h-screen flex-col items-center justify-center gap-5 p-12'>
+    <div className='flex min-h-screen flex-col items-center justify-center gap-8 p-6'>
       <h1 className='text-center font-serif text-4xl font-bold'>
         Play React Template
       </h1>

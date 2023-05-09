@@ -1,4 +1,6 @@
 {
+  "name": "playreact-template",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
