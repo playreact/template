@@ -7,6 +7,9 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "ahooks": "^3.7.7",
+    "daisyui": "^2.51.6",
+    "lucide-react": "^0.211.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -16,12 +19,9 @@
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
     "@vitejs/plugin-react-swc": "^3.3.1",
-    "ahooks": "^3.7.7",
     "autoprefixer": "^10.4.14",
-    "daisyui": "^2.51.6",
     "eslint": "^8.40.0",
     "eslint-plugin-tailwindcss": "^3.11.0",
-    "lucide-react": "^0.211.0",
     "postcss": "^8.4.23",
     "tailwindcss": "^3.3.2",
     "theme-change": "^2.5.0",
