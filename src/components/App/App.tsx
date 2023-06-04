@@ -14,12 +14,20 @@ const App: React.FC = () => {
         Play React Template
       </h1>
 
-      <div className='btn-group'>
-        <button className='btn-outline btn-square btn' onClick={decrement}><Minus size={18} /></button>
-        <button className='btn-outline btn'>{count}</button>
-        <button className='btn-outline btn-square btn' onClick={increment}><Plus size={18} /></button>
-        <button className='btn-outline btn-square btn' onClick={reset}><RotateCw size={16} /></button>
-        <button className='btn-outline btn-square btn' onClick={multiplyBy2}><X size={16} />2</button>
+      <div className='join'>
+        <button className='btn-outline join-item btn'>{count}</button>
+        <button className='btn-outline btn-square join-item btn' onClick={decrement}>
+          <Minus size={18} />
+        </button>
+        <button className='btn-outline btn-square join-item btn' onClick={increment}>
+          <Plus size={18} />
+        </button>
+        <button className='btn-outline btn-square join-item btn' onClick={reset}>
+          <RotateCw size={16} />
+        </button>
+        <button className='btn-outline btn-square join-item btn gap-0.5' onClick={multiplyBy2}>
+          <X size={16} /> 2
+        </button>
       </div>
 
       <div className="fixed right-3 top-3">
