@@ -17,6 +17,5 @@ nr dev
 ## Examples
 
 - [Todo MVC](https://github.com/playreact/todomvc)
-- [Tic-Tac-Toe](https://github.com/playreact/tic-tac-toe) 
-- [Gobang](https://github.com/playreact/gobang)
+- [Tic-Tac-Toe](https://github.com/playreact/tic-tac-toe)
 - ...
